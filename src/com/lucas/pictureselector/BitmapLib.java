@@ -104,7 +104,7 @@ public class BitmapLib {
         return null;       
     }
     
-    public static Bitmap decodeBitmap(Context context, InputStream is, int w, int h, PicZoomOutType zoomOutType) {
+    public static Bitmap decodeBitmap(Context context, InputStream is, int w, int h, PicZoomOutType zoomOutType) {     
         if(w < 0 || h < 0) {
             throw new IllegalArgumentException("w, h必须都大于0");
         }
